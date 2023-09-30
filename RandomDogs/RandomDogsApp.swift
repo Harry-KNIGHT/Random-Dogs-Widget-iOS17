@@ -11,7 +11,7 @@ import SwiftUI
 struct RandomDogsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RandomDogView()
         }
     }
 }
