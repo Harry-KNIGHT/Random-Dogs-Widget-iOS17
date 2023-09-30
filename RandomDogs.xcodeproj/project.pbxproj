@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		3C4905792AC7FC9800B89891 /* RandomDogsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4905782AC7FC9800B89891 /* RandomDogsApp.swift */; };
-		3C49057B2AC7FC9800B89891 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49057A2AC7FC9800B89891 /* ContentView.swift */; };
 		3C49057D2AC7FC9900B89891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C49057C2AC7FC9900B89891 /* Assets.xcassets */; };
 		3C4905802AC7FC9900B89891 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C49057F2AC7FC9900B89891 /* Preview Assets.xcassets */; };
 		3C49058A2AC7FCDA00B89891 /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 3C4905892AC7FCDA00B89891 /* API */; };
+		3C49058E2AC8031F00B89891 /* RandomDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49058D2AC8031F00B89891 /* RandomDogView.swift */; };
+		3C4905902AC8035A00B89891 /* RandomDogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C4905752AC7FC9800B89891 /* RandomDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4905782AC7FC9800B89891 /* RandomDogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogsApp.swift; sourceTree = "<group>"; };
-		3C49057A2AC7FC9800B89891 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C49057C2AC7FC9900B89891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C49057F2AC7FC9900B89891 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C4905872AC7FCCE00B89891 /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = API; path = ../API; sourceTree = "<group>"; };
+		3C49058D2AC8031F00B89891 /* RandomDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogView.swift; sourceTree = "<group>"; };
+		3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				3C4905782AC7FC9800B89891 /* RandomDogsApp.swift */,
-				3C49057A2AC7FC9800B89891 /* ContentView.swift */,
+				3C49058D2AC8031F00B89891 /* RandomDogView.swift */,
+				3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */,
 				3C49057C2AC7FC9900B89891 /* Assets.xcassets */,
 				3C49057E2AC7FC9900B89891 /* Preview Content */,
 			);
@@ -152,7 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C49057B2AC7FC9800B89891 /* ContentView.swift in Sources */,
+				3C49058E2AC8031F00B89891 /* RandomDogView.swift in Sources */,
+				3C4905902AC8035A00B89891 /* RandomDogViewModel.swift in Sources */,
 				3C4905792AC7FC9800B89891 /* RandomDogsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
