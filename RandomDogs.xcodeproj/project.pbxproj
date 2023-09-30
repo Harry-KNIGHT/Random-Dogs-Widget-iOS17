@@ -13,7 +13,39 @@
 		3C49058A2AC7FCDA00B89891 /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 3C4905892AC7FCDA00B89891 /* API */; };
 		3C49058E2AC8031F00B89891 /* RandomDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49058D2AC8031F00B89891 /* RandomDogView.swift */; };
 		3C4905902AC8035A00B89891 /* RandomDogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */; };
+		3C68F9192AC83A8300A4ABE5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C68F9182AC83A8300A4ABE5 /* WidgetKit.framework */; };
+		3C68F91B2AC83A8300A4ABE5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C68F91A2AC83A8300A4ABE5 /* SwiftUI.framework */; };
+		3C68F91E2AC83A8300A4ABE5 /* InteractiveDogWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68F91D2AC83A8300A4ABE5 /* InteractiveDogWidgetsBundle.swift */; };
+		3C68F9202AC83A8300A4ABE5 /* InteractiveDogWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68F91F2AC83A8300A4ABE5 /* InteractiveDogWidgets.swift */; };
+		3C68F9222AC83A8400A4ABE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C68F9212AC83A8400A4ABE5 /* Assets.xcassets */; };
+		3C68F9262AC83A8400A4ABE5 /* InteractiveDogWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3CA838EE2AC8BCAC00CC1294 /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA838ED2AC8BCAC00CC1294 /* API */; };
+		3CA838F02AC8BD2500CC1294 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA838EF2AC8BD2500CC1294 /* NetworkImage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C68F9242AC83A8400A4ABE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C49056D2AC7FC9800B89891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C68F9162AC83A8300A4ABE5;
+			remoteInfo = InteractiveDogWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C68F9272AC83A8400A4ABE5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C68F9262AC83A8400A4ABE5 /* InteractiveDogWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3C4905752AC7FC9800B89891 /* RandomDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +55,14 @@
 		3C4905872AC7FCCE00B89891 /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = API; path = ../API; sourceTree = "<group>"; };
 		3C49058D2AC8031F00B89891 /* RandomDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogView.swift; sourceTree = "<group>"; };
 		3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogViewModel.swift; sourceTree = "<group>"; };
+		3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InteractiveDogWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C68F9182AC83A8300A4ABE5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3C68F91A2AC83A8300A4ABE5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3C68F91D2AC83A8300A4ABE5 /* InteractiveDogWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDogWidgetsBundle.swift; sourceTree = "<group>"; };
+		3C68F91F2AC83A8300A4ABE5 /* InteractiveDogWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDogWidgets.swift; sourceTree = "<group>"; };
+		3C68F9212AC83A8400A4ABE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C68F9232AC83A8400A4ABE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA838EF2AC8BD2500CC1294 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +74,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3C68F9142AC83A8300A4ABE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA838EE2AC8BCAC00CC1294 /* API in Frameworks */,
+				3C68F91B2AC83A8300A4ABE5 /* SwiftUI.framework in Frameworks */,
+				3C68F9192AC83A8300A4ABE5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,6 +92,7 @@
 			children = (
 				3C4905872AC7FCCE00B89891 /* API */,
 				3C4905772AC7FC9800B89891 /* RandomDogs */,
+				3C68F91C2AC83A8300A4ABE5 /* InteractiveDogWidgets */,
 				3C4905762AC7FC9800B89891 /* Products */,
 				3C4905882AC7FCDA00B89891 /* Frameworks */,
 			);
@@ -51,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				3C4905752AC7FC9800B89891 /* RandomDogs.app */,
+				3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,8 +130,22 @@
 		3C4905882AC7FCDA00B89891 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C68F9182AC83A8300A4ABE5 /* WidgetKit.framework */,
+				3C68F91A2AC83A8300A4ABE5 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C68F91C2AC83A8300A4ABE5 /* InteractiveDogWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				3C68F91D2AC83A8300A4ABE5 /* InteractiveDogWidgetsBundle.swift */,
+				3C68F91F2AC83A8300A4ABE5 /* InteractiveDogWidgets.swift */,
+				3CA838EF2AC8BD2500CC1294 /* NetworkImage.swift */,
+				3C68F9212AC83A8400A4ABE5 /* Assets.xcassets */,
+				3C68F9232AC83A8400A4ABE5 /* Info.plist */,
+			);
+			path = InteractiveDogWidgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,10 +158,12 @@
 				3C4905712AC7FC9800B89891 /* Sources */,
 				3C4905722AC7FC9800B89891 /* Frameworks */,
 				3C4905732AC7FC9800B89891 /* Resources */,
+				3C68F9272AC83A8400A4ABE5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3C68F9252AC83A8400A4ABE5 /* PBXTargetDependency */,
 			);
 			name = RandomDogs;
 			packageProductDependencies = (
@@ -104,6 +172,26 @@
 			productName = RandomDogs;
 			productReference = 3C4905752AC7FC9800B89891 /* RandomDogs.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3C68F9162AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C68F92A2AC83A8400A4ABE5 /* Build configuration list for PBXNativeTarget "InteractiveDogWidgetsExtension" */;
+			buildPhases = (
+				3C68F9132AC83A8300A4ABE5 /* Sources */,
+				3C68F9142AC83A8300A4ABE5 /* Frameworks */,
+				3C68F9152AC83A8300A4ABE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InteractiveDogWidgetsExtension;
+			packageProductDependencies = (
+				3CA838ED2AC8BCAC00CC1294 /* API */,
+			);
+			productName = InteractiveDogWidgetsExtension;
+			productReference = 3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,6 +204,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					3C4905742AC7FC9800B89891 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C68F9162AC83A8300A4ABE5 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -134,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				3C4905742AC7FC9800B89891 /* RandomDogs */,
+				3C68F9162AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -145,6 +237,14 @@
 			files = (
 				3C4905802AC7FC9900B89891 /* Preview Assets.xcassets in Resources */,
 				3C49057D2AC7FC9900B89891 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C68F9152AC83A8300A4ABE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C68F9222AC83A8400A4ABE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +261,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3C68F9132AC83A8300A4ABE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C68F91E2AC83A8300A4ABE5 /* InteractiveDogWidgetsBundle.swift in Sources */,
+				3CA838F02AC8BD2500CC1294 /* NetworkImage.swift in Sources */,
+				3C68F9202AC83A8300A4ABE5 /* InteractiveDogWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C68F9252AC83A8400A4ABE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C68F9162AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension */;
+			targetProxy = 3C68F9242AC83A8400A4ABE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3C4905812AC7FC9900B89891 /* Debug */ = {
@@ -286,6 +404,7 @@
 		3C4905842AC7FC9900B89891 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +434,7 @@
 		3C4905852AC7FC9900B89891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -335,6 +455,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.elliot.knight.RandomDogs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C68F9282AC83A8400A4ABE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99M75C322U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InteractiveDogWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InteractiveDogWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliot.knight.RandomDogs.InteractiveDogWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C68F9292AC83A8400A4ABE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99M75C322U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InteractiveDogWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InteractiveDogWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliot.knight.RandomDogs.InteractiveDogWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,10 +536,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3C68F92A2AC83A8400A4ABE5 /* Build configuration list for PBXNativeTarget "InteractiveDogWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C68F9282AC83A8400A4ABE5 /* Debug */,
+				3C68F9292AC83A8400A4ABE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		3C4905892AC7FCDA00B89891 /* API */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = API;
+		};
+		3CA838ED2AC8BCAC00CC1294 /* API */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = API;
 		};
