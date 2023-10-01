@@ -1,10 +1,10 @@
 # Widget-with-button-iOS17
 
-Welcome to **Widget-with-button-iOS17**, your gateway to enjoying adorable dog images right on your iOS 17 home screen!
+Welcome to **Random Dogs**, your gateway to enjoying adorable dog images right on your iOS 17 home screen!
 
 Thanks to the new iOS 17 widget feature called AppIntent, we've added a special twist – buttons to widgets!
 
-![Random Dog](https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/RandomDog.gif)
+<img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/RandomDog.gif" width="200">
 
 ## Table of Contents
 - [Apple Documentation](#apple-documentation)
