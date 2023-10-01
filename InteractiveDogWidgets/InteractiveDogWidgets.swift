@@ -7,7 +7,8 @@
 
 import WidgetKit
 import SwiftUI
-import API
+import DogApi
+
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
 		SimpleEntry(

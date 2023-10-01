@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import API
+import DogApi
 
 final class RandomDogViewModel: ObservableObject {
 

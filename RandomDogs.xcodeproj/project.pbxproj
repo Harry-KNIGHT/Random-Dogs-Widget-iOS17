@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C29CA4B2AC9A16F00AA660F /* DogApi in Frameworks */ = {isa = PBXBuildFile; productRef = 3C29CA4A2AC9A16F00AA660F /* DogApi */; };
+		3C29CA4D2AC9A17C00AA660F /* DogApi in Frameworks */ = {isa = PBXBuildFile; productRef = 3C29CA4C2AC9A17C00AA660F /* DogApi */; };
 		3C4905792AC7FC9800B89891 /* RandomDogsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4905782AC7FC9800B89891 /* RandomDogsApp.swift */; };
 		3C49057D2AC7FC9900B89891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C49057C2AC7FC9900B89891 /* Assets.xcassets */; };
 		3C4905802AC7FC9900B89891 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C49057F2AC7FC9900B89891 /* Preview Assets.xcassets */; };
-		3C49058A2AC7FCDA00B89891 /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 3C4905892AC7FCDA00B89891 /* API */; };
 		3C49058E2AC8031F00B89891 /* RandomDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49058D2AC8031F00B89891 /* RandomDogView.swift */; };
 		3C4905902AC8035A00B89891 /* RandomDogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */; };
 		3C68F9192AC83A8300A4ABE5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C68F9182AC83A8300A4ABE5 /* WidgetKit.framework */; };
@@ -19,7 +20,6 @@
 		3C68F9202AC83A8300A4ABE5 /* InteractiveDogWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68F91F2AC83A8300A4ABE5 /* InteractiveDogWidgets.swift */; };
 		3C68F9222AC83A8400A4ABE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C68F9212AC83A8400A4ABE5 /* Assets.xcassets */; };
 		3C68F9262AC83A8400A4ABE5 /* InteractiveDogWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3CA838EE2AC8BCAC00CC1294 /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA838ED2AC8BCAC00CC1294 /* API */; };
 		3CA838F02AC8BD2500CC1294 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA838EF2AC8BD2500CC1294 /* NetworkImage.swift */; };
 		3CA838F22AC9425800CC1294 /* DogSearchIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA838F12AC9425800CC1294 /* DogSearchIntent.swift */; };
 /* End PBXBuildFile section */
@@ -49,11 +49,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C29CA492AC99CE700AA660F /* DogApi */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DogApi; sourceTree = "<group>"; };
 		3C4905752AC7FC9800B89891 /* RandomDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4905782AC7FC9800B89891 /* RandomDogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogsApp.swift; sourceTree = "<group>"; };
 		3C49057C2AC7FC9900B89891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C49057F2AC7FC9900B89891 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3C4905872AC7FCCE00B89891 /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = API; path = ../API; sourceTree = "<group>"; };
 		3C49058D2AC8031F00B89891 /* RandomDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogView.swift; sourceTree = "<group>"; };
 		3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogViewModel.swift; sourceTree = "<group>"; };
 		3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InteractiveDogWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C49058A2AC7FCDA00B89891 /* API in Frameworks */,
+				3C29CA4D2AC9A17C00AA660F /* DogApi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CA838EE2AC8BCAC00CC1294 /* API in Frameworks */,
 				3C68F91B2AC83A8300A4ABE5 /* SwiftUI.framework in Frameworks */,
 				3C68F9192AC83A8300A4ABE5 /* WidgetKit.framework in Frameworks */,
+				3C29CA4B2AC9A16F00AA660F /* DogApi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 		3C49056C2AC7FC9800B89891 = {
 			isa = PBXGroup;
 			children = (
-				3C4905872AC7FCCE00B89891 /* API */,
+				3C29CA492AC99CE700AA660F /* DogApi */,
 				3C4905772AC7FC9800B89891 /* RandomDogs */,
 				3C68F91C2AC83A8300A4ABE5 /* InteractiveDogWidgets */,
 				3C4905762AC7FC9800B89891 /* Products */,
@@ -170,7 +170,7 @@
 			);
 			name = RandomDogs;
 			packageProductDependencies = (
-				3C4905892AC7FCDA00B89891 /* API */,
+				3C29CA4C2AC9A17C00AA660F /* DogApi */,
 			);
 			productName = RandomDogs;
 			productReference = 3C4905752AC7FC9800B89891 /* RandomDogs.app */;
@@ -190,7 +190,7 @@
 			);
 			name = InteractiveDogWidgetsExtension;
 			packageProductDependencies = (
-				3CA838ED2AC8BCAC00CC1294 /* API */,
+				3C29CA4A2AC9A16F00AA660F /* DogApi */,
 			);
 			productName = InteractiveDogWidgetsExtension;
 			productReference = 3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */;
@@ -552,13 +552,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3C4905892AC7FCDA00B89891 /* API */ = {
+		3C29CA4A2AC9A16F00AA660F /* DogApi */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = API;
+			productName = DogApi;
 		};
-		3CA838ED2AC8BCAC00CC1294 /* API */ = {
+		3C29CA4C2AC9A17C00AA660F /* DogApi */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = API;
+			productName = DogApi;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
