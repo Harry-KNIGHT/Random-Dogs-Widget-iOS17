@@ -10,11 +10,23 @@ import SwiftUI
 import API
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
-		SimpleEntry(date: Date(), emoji: "😀", dog: .init(imageUrl: ""))
+		SimpleEntry(
+			date: Date(),
+			emoji: "😀",
+			dog: .init(
+				imageUrl: "https://images.dog.ceo/breeds/poodle-medium/PXL_20210220_100624962.jpg"
+			)
+		)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), emoji: "😀", dog: .init(imageUrl: ""))
+		let entry = SimpleEntry(
+			date: Date(),
+			emoji: "😀",
+			dog: .init(
+				imageUrl: "https://images.dog.ceo/breeds/poodle-medium/PXL_20210220_100624962.jpg"
+			)
+		)
         completion(entry)
     }
 
@@ -53,35 +65,34 @@ struct InteractiveDogWidgetsEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-		ZStack {
+		VStack {
 			NetworkImage(url: URL(string: entry.dog.imageUrl))
+				.cornerRadius(10)
+			Spacer()
 			Button(intent: DogSearch()) {
-				Text("Another doggo")
+				Image(systemName: "shuffle")
 					.foregroundStyle(.white)
+					.font(.title3)
+					.frame(maxWidth: .infinity)
 			}
-			.background(Color.black)
-			.cornerRadius(10)
+			.buttonBorderShape(.roundedRectangle(radius: 10))
+			.buttonStyle(.borderedProminent)
+			.accessibilityLabel("Look random dog")
         }
     }
 }
 
 struct InteractiveDogWidgets: Widget {
-    let kind: String = "InteractiveDogWidgets"
+	let kind: String = "InteractiveDogWidgets"
 
-    var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
-            if #available(iOS 17.0, *) {
-                InteractiveDogWidgetsEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
-            } else {
-                InteractiveDogWidgetsEntryView(entry: entry)
-                    .padding()
-                    .background()
-            }
-        }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
-    }
+	var body: some WidgetConfiguration {
+		StaticConfiguration(kind: kind, provider: Provider()) { entry in
+			InteractiveDogWidgetsEntryView(entry: entry)
+				.containerBackground(.fill.tertiary, for: .widget)
+		}
+		.configurationDisplayName("Random dogs")
+		.description("Look cute dogs on your widget")
+	}
 }
 
 #Preview(as: .systemSmall) {

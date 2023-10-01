@@ -14,10 +14,10 @@ struct NetworkImage: View {
 			if let url = url, let imageData = try? Data(contentsOf: url), let uiImage = UIImage(data: imageData) {
 				Image(uiImage: uiImage)
 					.resizable()
-					.scaledToFit()
+					.frame(maxWidth: .infinity, maxHeight: .infinity)
 			}
 			else {
-				ProgressView()
+				Text("Ça marche pas")
 			}
 		}
 	}
