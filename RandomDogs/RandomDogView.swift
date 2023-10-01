@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import API
+import DogApi
 
 struct RandomDogView: View {
 	@StateObject private var dogViewModel = RandomDogViewModel(service: DogServiceDefault())
