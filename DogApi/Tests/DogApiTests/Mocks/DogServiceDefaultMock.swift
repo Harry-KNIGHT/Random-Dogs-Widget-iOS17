@@ -14,7 +14,7 @@ final class DogServiceDefaultMock: DogService {
 	var serviceCalledCount = 0
 
 	enum DataMock: String {
-		case validFormat = "DogDataMock"
+		case validFormat = "ValidDogDataMock"
 		case invalidFormat = "InvalidDogDataMock"
 		case unexistingUrl
 	}
