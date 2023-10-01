@@ -49,11 +49,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C29CA492AC99CE700AA660F /* DogApi */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DogApi; sourceTree = "<group>"; };
 		3C4905752AC7FC9800B89891 /* RandomDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4905782AC7FC9800B89891 /* RandomDogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogsApp.swift; sourceTree = "<group>"; };
 		3C49057C2AC7FC9900B89891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C49057F2AC7FC9900B89891 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3C4905872AC7FCCE00B89891 /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = API; path = ../API; sourceTree = "<group>"; };
 		3C49058D2AC8031F00B89891 /* RandomDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogView.swift; sourceTree = "<group>"; };
 		3C49058F2AC8035A00B89891 /* RandomDogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogViewModel.swift; sourceTree = "<group>"; };
 		3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InteractiveDogWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +92,7 @@
 		3C49056C2AC7FC9800B89891 = {
 			isa = PBXGroup;
 			children = (
-				3C4905872AC7FCCE00B89891 /* API */,
+				3C29CA492AC99CE700AA660F /* DogApi */,
 				3C4905772AC7FC9800B89891 /* RandomDogs */,
 				3C68F91C2AC83A8300A4ABE5 /* InteractiveDogWidgets */,
 				3C4905762AC7FC9800B89891 /* Products */,
