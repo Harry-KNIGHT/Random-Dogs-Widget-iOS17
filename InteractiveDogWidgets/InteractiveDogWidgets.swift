@@ -53,8 +53,14 @@ struct InteractiveDogWidgetsEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        VStack {
+		ZStack {
 			NetworkImage(url: URL(string: entry.dog.imageUrl))
+			Button(intent: DogSearch()) {
+				Text("Another doggo")
+					.foregroundStyle(.white)
+			}
+			.background(Color.black)
+			.cornerRadius(10)
         }
     }
 }

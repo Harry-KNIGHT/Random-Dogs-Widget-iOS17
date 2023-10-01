@@ -21,6 +21,7 @@
 		3C68F9262AC83A8400A4ABE5 /* InteractiveDogWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3C68F9172AC83A8300A4ABE5 /* InteractiveDogWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3CA838EE2AC8BCAC00CC1294 /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA838ED2AC8BCAC00CC1294 /* API */; };
 		3CA838F02AC8BD2500CC1294 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA838EF2AC8BD2500CC1294 /* NetworkImage.swift */; };
+		3CA838F22AC9425800CC1294 /* DogSearchIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA838F12AC9425800CC1294 /* DogSearchIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		3C68F9212AC83A8400A4ABE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C68F9232AC83A8400A4ABE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CA838EF2AC8BD2500CC1294 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		3CA838F12AC9425800CC1294 /* DogSearchIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogSearchIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				3C68F91D2AC83A8300A4ABE5 /* InteractiveDogWidgetsBundle.swift */,
 				3C68F91F2AC83A8300A4ABE5 /* InteractiveDogWidgets.swift */,
+				3CA838F12AC9425800CC1294 /* DogSearchIntent.swift */,
 				3CA838EF2AC8BD2500CC1294 /* NetworkImage.swift */,
 				3C68F9212AC83A8400A4ABE5 /* Assets.xcassets */,
 				3C68F9232AC83A8400A4ABE5 /* Info.plist */,
@@ -267,6 +270,7 @@
 			files = (
 				3C68F91E2AC83A8300A4ABE5 /* InteractiveDogWidgetsBundle.swift in Sources */,
 				3CA838F02AC8BD2500CC1294 /* NetworkImage.swift in Sources */,
+				3CA838F22AC9425800CC1294 /* DogSearchIntent.swift in Sources */,
 				3C68F9202AC83A8300A4ABE5 /* InteractiveDogWidgets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
